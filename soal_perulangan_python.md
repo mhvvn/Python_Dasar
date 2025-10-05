@@ -1,4 +1,4 @@
-# Soal Latihan Praktikum Perulangan (for dan while) Bahasa Pemrograman Python
+# Soal Latihan Praktikum Perulangan (for dan while) Python
 
 ## Petunjuk Pengerjaan
 Lengkapi bagian kode yang ditandai dengan garis bawah (`______`) pada setiap soal agar program dapat berjalan sesuai dengan deskripsi cerita/kasus yang diberikan. Jawaban harus menggunakan konsep perulangan yang relevan (`for` atau `while`).
