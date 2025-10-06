@@ -5,36 +5,40 @@ Lengkapi bagian kode yang ditandai dengan garis bawah (`______`) pada setiap soa
 
 ---
 
-### **Soal 1: Mencetak Bilangan Ganjil dalam Jangkauan**
+### **Soal 1: Mencetak Bilangan Ganjil dengan Fungsi Range**
 **Deskripsi Kasus:**  
 Diberikan tugas untuk membuat program yang mencetak semua bilangan ganjil secara berurutan, dimulai dari angka 1 hingga 9. Gunakan perulangan `for` untuk iterasi ini.
 
 ```python
 print("--- Soal 1 ---")
 # Mencetak bilangan ganjil 1 hingga 9
-for angka in range(1, 10, 2):
+for angka in range(__, 10, __):
     print(angka)
 ```
+**Modifikasilah agar bisa menampilkan angka genap dia antar 1-50**
 
 ---
 
-### **Soal 2: Pemberhentian Proses oleh Sentinel**
+### **Soal 2: Pemberhentian Proses **
 **Deskripsi Kasus:**  
 Sebuah sistem memerlukan input angka dari pengguna. Program harus terus meminta input secara berulang (perulangan) dan baru akan berhenti ketika pengguna memasukkan angka `99`. Gunakan perulangan `while` untuk menangani kondisi ini.
 
 ```python
 print("--- Soal 2 ---")
 kode_berhenti = 99
-input_pengguna = 0  # Inisialisasi awal
+input_pengguna = 0 # Inisialisasi awal
 
-while input_pengguna != kode_berhenti:
+while input_pengguna ______ kode_berhenti:
     try:
         input_pengguna = int(input("Masukkan angka (99 untuk berhenti): "))
     except ValueError:
         print("Input tidak valid. Harap masukkan angka.")
 
 print("Perulangan telah dihentikan oleh sentinel (99).")
+
 ```
+***Modifikasilah agar bisa memberhentikan proses dengan memasukan NIM anda**
+
 
 ---
 
@@ -47,11 +51,14 @@ print("--- Soal 3 ---")
 harga_barang = [15000, 25000, 10000, 5000]
 total_belanja = 0
 
-for harga in harga_barang:
+for harga in ______:
     total_belanja += harga
 
 print("Total biaya belanja adalah:", total_belanja)
+
+**Modifikasilah agar**
 ```
+***Modifikasilah agar harga belanjaan minimal 10 item  pada harga_barang**
 
 ---
 
@@ -64,12 +71,12 @@ print("--- Soal 4 ---")
 percobaan_maksimal = 3
 percobaan_saat_ini = 1
 
-while percobaan_saat_ini <= percobaan_maksimal:
+while percobaan_saat_ini ______ percobaan_maksimal:
     print(f"Percobaan ke-{percobaan_saat_ini}...")
     # Asumsi ada logika input password di sini
-    percobaan_saat_ini += 1
+    percobaan_saat_ini += ______
     
-if percobaan_saat_ini == percobaan_maksimal + 1:  # Karena perulangan berhenti saat menjadi 4
+if percobaan_saat_ini == percobaan_maksimal + 1:
     print("Kesempatan habis.")
 else:
     print("Akses diterima.")
@@ -86,15 +93,15 @@ print("--- Soal 5 ---")
 nama_proyek = "PRAKTIKUM"
 hasil_output = ""
 
-for karakter in nama_proyek:
+for karakter in ______:
     hasil_output += karakter + "-"
 
-print(hasil_output)  # Output: P-R-A-K-T-I-K-U-M-
+print(hasil_output) # Output: P-R-A-K-T-I-K-U-M-
 ```
 
----
+**Modifikasilah agar teksi yang di cetak menjadi Politeknik Negeri Batam**
 
-## **Soal Latihan Tingkat Lanjut (Menengah Rendah)**
+---
 
 ### **Soal 6: Iterasi Mundur**
 **Deskripsi Kasus:**  
@@ -106,6 +113,7 @@ print("--- Soal 6 ---")
 for i in range(5, 0, ______):
     print(i)
 ```
+**Modifikasilah agar dapat menghitung mundur dari 255**
 
 ---
 
@@ -121,6 +129,8 @@ for ______:
     # i adalah indeks, nama adalah elemen
     print(f"Bulan ke-{i + 1}: {nama}")
 ```
+
+**Modifikasilah agar dapat mencetak nama kelurahan di Kota Batam**
 
 ---
 
@@ -139,6 +149,7 @@ for angka in data_angka:
 
 print("Program berhenti karena angka -1 ditemukan.")
 ```
+** Modifikasilah agar berhenti ketika terdapat angka 0 pada variavle data_angka**
 
 ---
 
