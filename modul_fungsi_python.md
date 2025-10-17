@@ -1,7 +1,6 @@
 # MODUL PRAKTIKUM: PEMBUATAN FUNGSI LANJUTAN PYTHON
 
-**Mata Kuliah:** Dasar-Dasar Pemrograman  
-**Dosen Pengampu:** [Nama Anda]
+**Mata Kuliah:** Pemrograman Dasar : Python
 
 ---
 
@@ -15,7 +14,7 @@ Mahasiswa diharapkan dapat mengisi bagian yang dikosongkan (`______`) agar kode 
 ## Soal Latihan Pembuatan Fungsi
 
 ### **Soal 1: Fungsi Sederhana Tanpa Parameter (Inisialisasi)**
-**Narasi Kasus:**  
+**Deskripsi:**  
 Anda diminta untuk membuat fungsi inisialisasi pada sistem program yang bertugas memberikan sambutan awal. Fungsi ini tidak memerlukan input apapun dari luar (tanpa parameter).
 
 **Tugas:**  
@@ -31,15 +30,15 @@ def sapa_praktikan(______):
 sapa_praktikan()
 ```
 
-**Alternatif Modifikasi (Tingkat Lanjut):** Tambahkan docstring yang lebih deskriptif pada fungsi tersebut, menjelaskan tujuan dan tanggal pembuatannya.
+**Modifikasi:** Buatlah fungsi untuk menampilkan **Biodata()** Lengkap anda.
 
 ---
 
 ### **Soal 2: Fungsi dengan Parameter Primitif (Matematika)**
-**Narasi Kasus:**  
+**Deskripsi:**  
 Sebagai bagian dari modul perhitungan geometris, Anda perlu mendefinisikan fungsi untuk menghitung volume dari sebuah kubus. Volume kubus dihitung dari sisi pangkat tiga (`s³`).
 
-**Tugas:**  
+**Tugas Anda:**  
 Lengkapi parameter fungsi `hitung_volume_kubus` dan operasi aritmatika yang sesuai.
 
 ```python
@@ -53,15 +52,15 @@ panjang_sisi = 5
 print(f"Volume kubus dengan sisi {panjang_sisi} adalah: {hitung_volume_kubus(panjang_sisi)}")
 ```
 
-**Alternatif Modifikasi (Tingkat Lanjut):** Ubah fungsi agar dapat menghitung volume balok dengan menerima tiga parameter: panjang, lebar, dan tinggi.
+**Modifikasi:** Ubah fungsi agar dapat menghitung volume balok dengan menerima tiga parameter: panjang, lebar, dan tinggi.
 
 ---
 
 ### **Soal 3: Fungsi dengan Parameter Non-Primitif (list) dan Perulangan (for)**
-**Narasi Kasus:**  
+**Deskripsi:**  
 Anda memiliki data nilai ujian mahasiswa dalam bentuk list. Buat fungsi yang menerima list nilai tersebut. Fungsi harus menggunakan perulangan `for` untuk menjumlahkan semua nilai, lalu mengembalikan nilai rata-ratanya.
 
-**Tugas:**  
+**Tugas Anda:**  
 Lengkapi perulangan `for` untuk mengiterasi daftar nilai dan hitung panjang list untuk pembagian rata-rata.
 
 ```python
@@ -84,15 +83,15 @@ nilai_praktikan = [85, 78, 92, 65, 90]
 print(f"Nilai rata-rata kelas adalah: {hitung_rata_rata(nilai_praktikan)}")
 ```
 
-**Alternatif Modifikasi (Tingkat Lanjut):** Tambahkan pengecekan menggunakan percabangan `if` di dalam perulangan `for` untuk mengabaikan atau memberikan penalti jika ada nilai di bawah 0 atau di atas 100.
+**Modifikasi:** Tambahkan pengecekan menggunakan percabangan `if` di dalam perulangan `for` untuk mengabaikan atau memberikan penalti jika ada nilai di bawah 0 atau di atas 100.
 
 ---
 
 ### **Soal 4: Fungsi dengan Percabangan (if, elif, else)**
-**Narasi Kasus:**  
+**Deskripsi:**  
 Dalam sistem penilaian, Anda perlu membuat fungsi `tentukan_predikat` yang menentukan predikat (A, B, C, D, E) berdasarkan skor numerik (0–100).
 
-**Tugas:**  
+**Tugas Anda:**  
 Lengkapi kondisi `elif` untuk predikat B dan `return` untuk predikat C.
 
 | Skor | Predikat |
@@ -123,15 +122,15 @@ print(f"Skor 75 mendapat predikat: {tentukan_predikat(75)}")
 print(f"Skor 48 mendapat predikat: {tentukan_predikat(48)}")
 ```
 
-**Alternatif Modifikasi (Tingkat Lanjut):** Implementasikan pengecekan tipe data agar hanya menerima input numerik (int/float).
+**Modifikasi:** Implementasikan pengecekan tipe data agar hanya menerima input numerik (int/float).
 
 ---
 
 ### **Soal 5: Fungsi dengan Implementasi Perulangan while**
-**Narasi Kasus:**  
+**Deskripsi:**  
 Buatlah fungsi yang dapat menghitung faktorial dari sebuah bilangan bulat positif `n` (`n! = n × (n−1) × ... × 1`). Proses pengurangan bilangan harus diimplementasikan menggunakan perulangan `while`.
 
-**Tugas:**  
+**Tugas Anda:**  
 Lengkapi kondisi perulangan `while` dan operasi pengurangan pada variabel `n`.
 
 ```python
@@ -151,15 +150,15 @@ bilangan_n = 4
 print(f"Faktorial dari {bilangan_n} adalah: {hitung_faktorial(bilangan_n)}")  # Output: 24
 ```
 
-**Alternatif Modifikasi (Tingkat Lanjut):** Tambahkan percabangan `if` untuk menangani kasus khusus seperti `n = 0` atau `n < 0`.
+**Modifikasi:** Tambahkan percabangan `if` untuk menangani kasus khusus seperti `n = 0` atau `n < 0`.
 
 ---
 
 ### **Soal 6: Fungsi Komprehensif (Gabungan Perulangan dan Percabangan)**
-**Narasi Kasus:**  
+**Deskripsi:**  
 Anda ditugaskan untuk menganalisis data sensor suhu harian dalam sebuah list (`data_suhu`). Buat fungsi yang menghitung jumlah hari dengan suhu ekstrem: hari dianggap **Panas** jika suhu ≥ 35°C dan **Dingin** jika suhu ≤ 15°C.
 
-**Tugas:**  
+**Tugas Anda:**  
 Lengkapi inisialisasi penghitung dan implementasikan percabangan `if` untuk menghitung hari "Dingin".
 
 ```python
@@ -184,76 +183,8 @@ print(f"Jumlah hari Panas (>=35°C): {jumlah_panas}")
 print(f"Jumlah hari Dingin (<=15°C): {jumlah_dingin}")
 ```
 
-**Alternatif Modifikasi (Tingkat Lanjut):** Tambahkan parameter opsional pada fungsi seperti `batas_panas` dan `batas_dingin` dengan nilai default 35 dan 15.
+**Modifikasi:** Tambahkan parameter opsional pada fungsi seperti `batas_panas` dan `batas_dingin` dengan nilai default 35 dan 15.
 
 ---
 
-## Kunci Jawaban
-
-### **Soal 1**
-```python
-def sapa_praktikan():
-    """Mencetak pesan sambutan dasar."""
-    print("Sistem siap. Selamat datang kembali di sesi praktikum.")
-```
-
-### **Soal 2**
-```python
-def hitung_volume_kubus(sisi):
-    """Menghitung volume kubus dari panjang sisinya."""
-    return sisi ** 3
-```
-
-### **Soal 3**
-```python
-def hitung_rata_rata(data_nilai):
-    """Menghitung rata-rata dari list angka menggunakan perulangan for."""
-    total = 0
-    for nilai in data_nilai:
-        total += nilai
-    if len(data_nilai) > 0:
-        return total / len(data_nilai)
-    return 0
-```
-
-### **Soal 4**
-```python
-def tentukan_predikat(skor):
-    """Menentukan predikat (A, B, C, D, E) berdasarkan skor."""
-    if skor >= 85:
-        return "A"
-    elif skor >= 70:
-        return "B"
-    elif skor >= 60:
-        return "C"
-    elif skor >= 50:
-        return "D"
-    else:
-        return "E"
-```
-
-### **Soal 5**
-```python
-def hitung_faktorial(n):
-    """Menghitung faktorial dari bilangan positif n."""
-    hasil = 1
-    while n > 1:
-        hasil *= n
-        n -= 1
-    return hasil
-```
-
-### **Soal 6**
-```python
-def analisis_suhu(data_suhu):
-    """Menghitung jumlah hari Panas dan Dingin dari data_suhu."""
-    panas_count = 0
-    dingin_count = 0
-    for suhu in data_suhu:
-        if suhu >= 35:
-            panas_count += 1
-        elif suhu <= 15:
-            dingin_count += 1
-    return panas_count, dingin_count
-```
-
+## Jelaskan Setiap Nomor pada Laporan anda
