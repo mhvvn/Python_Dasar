@@ -20,22 +20,28 @@
 ## 1. Percabangan / Branching
 Sebuah sensor pada sistem pembangkit yang mengukur suhu air pendingin. Buatlah sebuah blok kode Python untuk:
 
-a. Meminta input pengguna untuk suhu (bertipe float).  
+a. Meminta input pengguna untuk suhu (bertipe float). 
+
 b. Mencetak `"STATUS: Normal" jika suhu 90°C atau kurang`.  
-c. Mencetak `"STATUS: Warning" jika suhu di atas 90°C tetapi di bawah 100°C`.  
-d. Mencetak `"ALERT: SHUTDOWN" jika suhu 100°C atau lebih.`  
---
+
+c. Mencetak `"STATUS: Warning" jika suhu di atas 90°C tetapi di bawah 100°C`. 
+
+d. Mencetak `"ALERT: SHUTDOWN" jika suhu 100°C atau lebih.` 
+
 
 ## 2. Fungsi / Functions
-Dalam rekayasa pembangkit, efisiensi turbin dihitung dengan rumus berikut :   
+Dalam rekayasa pembangkit, efisiensi turbin dihitung dengan rumus berikut:   
 `Efisiensi = (Output Energi / Input Energi) `
 
 Buatlah fungsi Python bernama `hitung_efisiensi` untuk:
 
-a. Menerima dua parameter: `input_energi` dan `output_energi`.  
+a. Menerima dua parameter:
+ `input_energi` dan `output_energi`.  
+
 b. Mengembalikan (return) nilai efisiensi (Output / Input).  
+
 c. Bonus: Tunjukkan cara memanggil fungsi ini dengan input 500 dan output 400.
---
+
 
 ## 3. Looping `for`
 Anda memiliki data hasil pembacaan vibrasi dari 5-unit mesin berbeda:
@@ -47,7 +53,6 @@ Buatlah sebuah loop/perulangan `for` yang akan memeriksa setiap nilai dalam list
 **`"Warning: Unit [nomor_unit] vibrasi tinggi!"`**
 
 (Asumsikan unit dimulai dari 1).
---
 
 ## 4. Logika `if` Majemuk/bertingkat
 Sebuah katup pengaman (safety valve) hanya boleh terbuka jika kedua kondisi berikut terpenuhi:
@@ -56,18 +61,22 @@ a. `tekanan_uap` (float) lebih besar dari `150` psi.
 b. `status_manual_override` (boolean) adalah False.  
 
 Buatlah satu pernyataan `if` majemuk/bertingkat (menggunakan operator logika) yang akan mencetak `"Katup Terbuka"` hanya jika kedua kondisi tersebut terpenuhi.
---
+
+
 
 ## 5. Looping `while`
+
 Sebuah sistem pemanas menaikkan suhu hingga mencapai target `85°C`.Mulai dengan `suhu_saat_ini = 60`.  
 Loop harus berjalan selama suhu_saat_ini < 85, naikkan 5 derajat tiap iterasi, dan cetak suhu saat ini.
---
+
+
 
 ## 6. Variabel & Ekspresi
+
 Sebuah generator menghasilkan tegangan `220 Volt` dan arus `15 Ampere`.  
 
 Buatlah program Python untuk menghitung daya listrik (`P = V × I`) dan menampilkan hasil perhitunganya nya.
---
+
 
 ## 7. Percabangan / Branching
 Klasifikasikan beban listrik berdasarkan persentase pemakaian terhadap kapasitas maksimum:
@@ -78,13 +87,13 @@ Klasifikasikan beban listrik berdasarkan persentase pemakaian terhadap kapasitas
 | > 85 | "Beban Berat" |
 
 Program menerima input kapasitas maksimum dan beban terpakai, lalu menampilkan status beban.
---
+
 
 ## 8. Fungsi / Modularisasi
 Efisiensi termal turbin gas:
 **`Efisiensi (%) = (energi keluar / energi masuk) × 100`**  
 Buatlah fungsi dengan nama`hitung_efisiensi_termal()` untuk menghitung efisiensi dan menampilkan hasil perhitungannya.
---
+
 
 ## 9. Looping + List
 Anda memiliki daftar hasil pembacaan suhu pada 5 titik di boiler:
@@ -92,7 +101,6 @@ Anda memiliki daftar hasil pembacaan suhu pada 5 titik di boiler:
 suhu_boiler = [92.5, 88.7, 95.1, 102.3, 97.8]
 ```
 Gunakan loop `for` untuk menampilkan setiap nilai suhu, dan beri peringatan jika suhu di atas `100°C`.
---
 
 ## 10. While Loop & Logika
 Simulasikan pengisian tangki bahan bakar hingga penuh (100 liter).  
