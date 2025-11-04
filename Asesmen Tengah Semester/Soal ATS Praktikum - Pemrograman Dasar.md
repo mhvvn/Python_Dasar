@@ -12,9 +12,11 @@
 > 4. Perhatikan waktu
 > 5. Kerjakan sendiri, dan dilarang keras bekerja sama
 > 6. masing-masing di buat dalam satu file (.py) atau (.ipynb) Google Colab Notebook
-> 7. Lalu Upload file ke **github** masing-masing dengan nama file [`ATS Praktikum_Nama_NIM`]
+> 7. Lalu Upload file ke **github** masing-masing dengan nama file [`ATS Praktikum_Nama/Urutan_Kelompok`]
 > 7. Pastikan Nama dan NIM kelompok Terbaca dan tertulis di lembar jawaban
+> 8. Pengumpulan hanya satu orang perwakilan saja
 ---
+
 
 
 ## 1. Percabangan / Branching
