@@ -112,7 +112,7 @@ Gunakan loop `while`, mulai dari `0` liter, naikkan `10` liter tiap iterasi, dan
 --
 
 
-## **Challenge**
+## **Challenge** Penambahan Point Nilai
 > Buatlah sebuah program yang dapat menyelesaikan sebuah masalah di bidang energi yang mengimplementasikan percabangan `if,else,elif`, perulangan `for,while`, dan Fungsi `Function()` atau method dan fungsi lainya pada python.
   
 ___
