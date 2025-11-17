@@ -131,6 +131,7 @@ df
    ![example](/Praktikum%20Pertemuan%2007/image/image01.png)
 4. Selanjutnya buka file Latihan.ipyb lalu ikuti step by step nya
 5. Buatlah laporan sesuai dengan yang di kerjakan pada pertemuan 07 ini.
+6. file ipynb bisa di lihat di link berikut : https://colab.research.google.com/drive/1VQePS4i1a32iLtlxPxEvz1iyAWQ7aybc?usp=sharing 
    ```
 
 ---
