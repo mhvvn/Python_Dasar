@@ -127,13 +127,13 @@ df
 ### **Tugas Mahasiswa**
 1. Download file *mahasiswa.csv* yang ada pada repositpry github, cara download seperti gambar berikut ini : ![example](/Praktikum%20Pertemuan%2007/image/downloadz-csv_file.png)
    
-2. Lalu buat file google collab baru dengan nama latihan 07
+2. Lalu buat file google collab baru dengan nama latihan 08
    
 3. Setelah itu, klik pada icon file -> klik icon upload file dan upload file mahasiswa.csv,  sperti gambar di bawah ini
-   ![example](/Praktikum%20Pertemuan%2007/image/image01.png)
-4. Selanjutnya buka file **Latihan_07.ipynb** lalu ikuti step by step nya
-5. Buatlah laporan sesuai dengan yang di kerjakan pada pertemuan 07 ini.
-6. file **Latihan_07.ipynb**  bisa di lihat di link berikut : https://colab.research.google.com/drive/1VQePS4i1a32iLtlxPxEvz1iyAWQ7aybc?usp=sharing 
+   ![example](/Praktikum%20Pertemuan%2008/image/images01.png)
+4. Selanjutnya buka file **Latihan_08.ipynb** lalu ikuti step by step nya
+5. Buatlah laporan sesuai dengan yang di kerjakan pada pertemuan 08 ini.
+6. file **Latihan_08.ipynb**  bisa di lihat di link berikut : https://colab.research.google.com/drive/1VQePS4i1a32iLtlxPxEvz1iyAWQ7aybc?usp=sharing 
    ```
 
 ---
