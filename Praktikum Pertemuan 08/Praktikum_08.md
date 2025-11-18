@@ -125,7 +125,7 @@ df
 #  5. Latihan Praktikum: Data Wrangling
 
 ### **Tugas Mahasiswa**
-1. Download file *mahasiswa.csv* yang ada pada repositpry github, cara download seperti gambar berikut ini : ![example](/Praktikum%20Pertemuan%2007/image/downloadz-csv_file.png)
+1. Download file *mahasiswa.csv* yang ada pada repositpry github, cara download seperti gambar berikut ini : ![example](/Praktikum%20Pertemuan%2008/image/downloadz-csv_file.png)
    
 2. Lalu buat file google collab baru dengan nama latihan 08
    
