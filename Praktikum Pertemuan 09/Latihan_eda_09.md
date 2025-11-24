@@ -1,4 +1,4 @@
-# LATIHAN EDA – DATASET 1 & DATASET 2
+# PRAKTIKUM EDA – DATASET 1 & DATASET 2
 
 ## A. Dataset 1: Data Kota dan Jumlah Bandara
 
@@ -21,7 +21,7 @@ df
 
 ---
 
-## LATIHAN 1 – Statistik Deskriptif (`describe()`, `mean()`, `mode()`)
+## PRAKTIKUM 1 – Statistik Deskriptif (`describe()`, `mean()`, `mode()`)
 
 ### Langkah:
 - Tampilkan ringkasan statistik
@@ -48,7 +48,7 @@ print("Modus Airports:", modus_airports)
 
 ---
 
-## LATIHAN 2 – Visualisasi Distribusi (`hist()`)
+## PRAKTIKUM 2 – Visualisasi Distribusi (`hist()`)
 
 ### Tujuan:
 Melihat distribusi jumlah penduduk.
@@ -69,7 +69,7 @@ Tuliskan pengamatan dari histogram tersebut.
 
 ---
 
-## LATIHAN 3 – Korelasi & Kovarian (`corr()`, `cov()`)
+## PRAKTIKUM 3 – Korelasi & Kovarian (`corr()`, `cov()`)
 
 ### Tujuan:
 Melihat apakah penduduk berhubungan dengan jumlah bandara.
@@ -93,7 +93,7 @@ print("Kovarian:
 
 ---
 
-## LATIHAN 4 – Groupby (`groupby()`, `mean()`, `agg()`)
+## PRAKTIKUM 4 – Groupby (`groupby()`, `mean()`, `agg()`)
 
 ### Langkah:
 - Membuat kolom kategori berdasarkan jumlah bandara
@@ -155,7 +155,7 @@ body_measurement_df
 
 ---
 
-## LATIHAN 5 – Statistik Deskriptif
+## PRAKTIKUM 5 – Statistik Deskriptif
 
 ### Contoh kode:
 ```python
@@ -179,7 +179,7 @@ print("Modus umur:", mode_age)
 
 ---
 
-## LATIHAN 6 – Distribusi Tinggi & Berat
+## PRAKTIKUM 6 – Distribusi Tinggi & Berat
 
 ### Contoh kode:
 ```python
@@ -201,7 +201,7 @@ Apakah tinggi & berat menyebar rata atau menumpuk?
 
 ---
 
-## LATIHAN 7 – Groupby Usia
+## PRAKTIKUM 7 – Groupby Usia
 
 ### Contoh kode:
 ```python
@@ -223,7 +223,7 @@ group_agg_age
 
 ---
 
-## LATIHAN 8 – Korelasi & Kovarian
+## PRAKTIKUM 8 – Korelasi & Kovarian
 
 ### Contoh kode:
 ```python
@@ -240,3 +240,6 @@ print(cov_hw)
 - Apakah korelasinya kuat/lemah?  
 - Apakah hubungannya positif?
 
+# Tugas di rumah
+- Silahkan piliah salaj satu dataset dari folder file (customers, orders, product, dan sales) [link file](/Praktikum%20Pertemuan%2009/File/)
+- lalu lakukan semua step pada prakitkum 9 ini
