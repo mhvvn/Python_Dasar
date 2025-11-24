@@ -53,5 +53,5 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 ```
-# 3. Lanjutkan pada file Latihan_eda_09
+# 3. Lanjutkan pada file Latihan_eda_09 atau  [klik di sini](/Praktikum%20Pertemuan%2009/Latihan_eda_09.md)
 
