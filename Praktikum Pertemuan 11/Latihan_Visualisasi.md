@@ -367,7 +367,6 @@ Selamat, sekarang Anda telah berhasil menjawab seluruh pertanyaan analisis yang 
 - B. Proses untuk membersihkan data.
 - C. Proses penyampaian pesan.
 - D. Proses untuk menganalisis data.
-1
 
 2. Box plot merupakan salah satu bentuk visualisasi data yang digunakan untuk ....
 - A. merepresentasikan nilai IQR beserta ambang batas bawah dan atas dari sebuah data data kuantitatif.
