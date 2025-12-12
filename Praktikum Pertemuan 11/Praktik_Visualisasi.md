@@ -567,3 +567,104 @@ Pada contoh kode di atas, kita menampilkan hubungan antara berat badan dan flipp
 ![](https://assets.cdn.dicoding.com/original/academy/dos:61dd7ce81928eeb88a9c3c579d5a10c720230309160753.png)
 
 itulah berbagai pilihan bentuk visualisasi dan teknik yang dapat Anda gunakan untuk merepresentasikan dua atau lebih variabel dalam suatu dataset. Nah, pada materi berikutnya, kita akan melihat berbagai hal dan best practice dalam melakukan explanatory analysis.
+
+
+# Explanatory Analysis
+
+Sejauh ini Anda telah memahami berbagai prinsip penting dalam membuat visualisasi yang baik dan efektif. Selain itu, Anda juga telah mengenal berbagai teknik dan bentuk visualisasi yang umum digunakan untuk merepresentasikan sebuah data. Berbekal semua pengetahuan tersebut, sekarang Anda siap belajar tentang explanatory analysis. 
+
+Tentunya Anda masih ingat perbedaan antara explanatory analysis dan exploratory analysis, bukan? Sederhananya, exploratory analysis merupakan proses analisis data yang bertujuan untuk mengeksplorasi dan mengenal sebuah data. Di sisi lain, explanatory analysis merupakan proses analisis data yang bertujuan untuk membagikan beberapa insight yang menarik dari sebuah data. Insight yang diperoleh dari proses explanatory analysis akan digunakan untuk menjawab permasalahan bisnis yang dihadapi. Insight tersebut juga akan dibagikan kepada orang lain (stakeholder) sehingga perlu disertakan dengan visualisasi data yang baik. 
+
+Nah, pada materi ini, kita akan membahas berbagai hal penting terkait explanatory analysis. Sebagai permulaan kita akan melihat bagaimana caranya memberikan informasi konteks dalam sebuah visualisasi data.
+
+## Memberikan Informasi Konteks dalam Visualisasi Data
+
+Pada proses explanatory analysis, visualisasi data digunakan sebagai media untuk menyampaikan pesan atau story dari sebuah data. Oleh karena itu, ia harus mampu menarik perhatian pembaca (atau audiens) dan menyampaikan pesan secara efektif. Untuk melakukan hal ini, kita harus mampu memilih bentuk grafik/diagram yang tepat dan menerapkan berbagai prinsip dalam visualisasi data. Selain itu, kita juga menyampaikan informasi terkait konteks dari sebuah visualisasi data. Hal ini bisa dicapai dengan menambahkan beberapa komponen berikut.
+
+- **Title**
+    
+    Title atau judul merupakan salah satu komponen penting guna menyampaikan konteks pada sebuah visualisasi data. Kita bisa menambahkan judul pada visualisasi data menggunakan function title() yang disediakan oleh matplotlib.
+
+- **Label axes**
+  
+  Selain judul visualisasi, kita juga perlu menambahkan label atau keterangan pada setiap sumbu yang terdapat dalam visualisasi data. Hal ini dilakukan untuk memberikan konteks terkait titik data yang direpresentasikan. Kita bisa membuat label axes menggunakan function xlabel() dan ylabel() yang disediakan oleh library matplotlib.
+
+- **Legend**
+
+  Pastikan Anda menambahkan legend memberikan keterangan untuk variabel yang tidak digambarkan pada sumbu. Keterangan yang digunakan akan bergantung pada cara kita dalam merepresentasikan variabel tambahan tersebut. Sebagai contoh, kita bisa menggunakan legend() untuk memberikan keterangan pada variabel kategoris tambahan. Namun, apabila variabel tambahan tersebut berupa nilai numerik yang direpresentasikan menggunakan range warna, kita bisa memanfaatkan function `colorbar()` untuk memberikan keterangan pada variabel tersebut.
+
+  Berikut contoh kode untuk memberikan informasi terkait konteks dari sebuah visualisasi data.
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import yfinance as yf
+ 
+ticker = yf.Ticker("BBCA.JK")
+df = ticker.history(start="2022-02-14", end="2023-02-14")
+df.reset_index(inplace=True)
+ 
+url = 'https://query1.finance.yahoo.com/v7/finance/download/BBCA.JK?period1=1644796800&period2=1676332800&interval=1d&events=history&includeAdjustedClose=true'
+df = pd.read_csv(url)
+df['Date'] = pd.to_datetime(df['Date'])
+ 
+plt.figure(figsize=(12, 5))
+plt.plot(df['Date'], df['Close'], label='Close', color='red')
+plt.plot(df['Date'], df['Open'], label='Open', color='blue')
+plt.title('BBCA Stock Price', size=20)
+plt.xlabel('Date',size=15)
+plt.ylabel('Price (IDR)',size=15)
+plt.legend()
+plt.show()
+```
+
+Kode di atas akan menghasilkan tampilan visual seperti berikut.
+
+![](https://assets.cdn.dicoding.com/original/academy/dos-2d642ae81827fc4863546832ca5eac9e20250731142728.png)
+
+
+Seperti yang Anda lihat, visualisasi data di atas telah menyertakan informasi yang cukup detail terkait data yang divisualkan. Hal ini akan sangat membantu pembaca atau audiens dalam memahami konteks dari visualisasi data tersebut.
+
+Untuk alasan estetika, biasanya kita akan mengurangi penggunaan keterangan yang sebenarnya tidak dibutuhkan. Sebagai contoh, kita bisa menghilangkan label pada sumbu X dan Y tanpa menghilangkan konteks dari visualisasi data di atas. Hal ini dilakukan dengan memberikan informasi yang eksplisit pada bagian judul dari visualisasi data tersebut seperti pada gambar di bawah ini.
+
+![](https://assets.cdn.dicoding.com/original/academy/dos-62f8560b9d9a46363690bb7aec36491720250731142759.png)
+
+Bagaimana menurut Anda? Visualisasi di atas terlihat lebih clean dan minimalis, bukan?
+
+## Fokuskan Perhatian Audiens 
+
+Selain informasi konteks, pastikan audiens fokus pada informasi yang ingin kita sampaikan. Oleh karena itu, sebagai seorang praktisi data yang andal, kita harus mampu mengarahkan perhatian audiens. Untuk melakukan hal ini, kita bisa menggunakan komponen visual tertentu seperti color, shape, dan texture. 
+
+Sebagai contoh, kita bisa menggunakan warna yang kontras untuk mengarahkan perhatian audiens pada bagian yang ingin di-highlight. Berikut merupakan contoh kode untuk meng-highlight bagian penting dalam sebuah visualisasi data.
+
+
+```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+ 
+penguins_df = sns.load_dataset("penguins")
+ 
+adelie_df = penguins_df[penguins_df.species == "Adelie"]
+chinstrap_df = penguins_df[penguins_df.species == "Chinstrap"]
+gentoo_df = penguins_df[penguins_df.species == "Gentoo"]
+ 
+plt.figure(figsize=(10, 5))
+sns.scatterplot(data=adelie_df, x="body_mass_g", y="flipper_length_mm", facecolor="lightgrey", label="Adelie")
+sns.scatterplot(data=chinstrap_df, x="body_mass_g", y="flipper_length_mm", facecolor="lightgrey", label="Chinstrap")
+sns.scatterplot(data=gentoo_df, x="body_mass_g", y="flipper_length_mm", facecolor="blue", label="Gentoo")
+plt.legend()
+plt.show()
+```
+
+
+Pada kode di atas kita ingin memfokuskan audiens pada data salah satu spesies penguin yaitu gentoo yang memiliki ukuran paling besar di antara ketiga spesies tersebut. Berikut merupakan tampilan visualisasi data yang dihasilkan.
+
+![](https://assets.cdn.dicoding.com/original/academy/dos-8ebbe45d7406663f72550c4e08d0979420250731142824.png)
+
+Ketika melihat visualisasi data di atas, Anda pasti akan langsung fokus pada titik data dari spesies Gentoo karena ia memiliki warna yang kontras. Ini merupakan salah satu teknik yang umum digunakan untuk mengarahkan fokus audiens.
+
+Namun, perlu diingat bahwa ketika menggunakan teknik ini kita harus menghindari penggunaan warna yang menyakitkan mata audiens atau warna yang memiliki arti berlawanan dengan pesan yang ingin disampaikan. Selain itu, kita juga memperhatikan konsistensi dalam pemilihan warna dalam seluruh visualisasi data yang kita buat. 
+
+Anda dapat menggunakan beberapa pertanyaan tersebut guna mendapatkan feedback atau masukan untuk meningkatkan kualitas visualisasi data yang dibuat. Selain itu, pertanyaan tersebut juga membantu Anda mengidentifikasi informasi penting lain yang mungkin Anda lewatkan.
+
+Inilah akhir pembahasan tentang explanatory analysis. Semoga materi ini dapat membantu Anda dalam membuat visualisasi data yang mampu secara efektif menyampaikan seluruh informasi penting dari sebuah data.
