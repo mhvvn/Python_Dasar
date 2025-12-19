@@ -52,7 +52,7 @@ Streamlit merupakan salah satu open-source web app framework untuk bahasa pemrog
 Cukup banyak cara untuk menjalankan streamlit, merujuk pada dokumentasinya https://docs.streamlit.io/ yakni :
 
 1. Menggunakan Playgrount : https://docs.streamlit.io/get-started/installation/streamlit-playground, yang bisa di akses langung pada halaman berikut ini : https://streamlit.io/playground?
-![alt text](image.png)
+![alt text](/images/image.png)
 Tanpa harus menginstall di komputer sudah bisa menjalankan streamlit, Cara ini hanya untuk belajar atau percobaan.
 
 2. Install Streamlit using command line : https://docs.streamlit.io/get-started/installation/command-lin, Installasi langsung ke komputer/laptop dengan menjalankan virtual enviroment Python. (membutuhkan Code Editor)
