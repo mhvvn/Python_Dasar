@@ -385,3 +385,4 @@ Selamat, sekarang Anda telah berhasil menjawab seluruh pertanyaan analisis yang 
 - B. merepresentasikan nilai IQR beserta ambang batas bawah dan atas dari sebuah data data kuantitatif.
 - C. menggambarkan tren nilai dari suatu variabel terhadap variabel lain.
 - D. mengidentifikasi distribusi pada data kategoris.
+- 
