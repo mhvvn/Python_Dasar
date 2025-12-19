@@ -52,32 +52,32 @@ Streamlit merupakan salah satu open-source web app framework untuk bahasa pemrog
 Cukup banyak cara untuk menjalankan streamlit, merujuk pada dokumentasinya https://docs.streamlit.io/ yakni :
 
 1. Menggunakan Playgrount : https://docs.streamlit.io/get-started/installation/streamlit-playground, yang bisa di akses langung pada halaman berikut ini : https://streamlit.io/playground?
-![alt text](/images/image.png)
+![alt text](/Praktikum%20Pertemuan%2012/images/image.png)
 Tanpa harus menginstall di komputer sudah bisa menjalankan streamlit, Cara ini hanya untuk belajar atau percobaan.
 
 2. Install Streamlit using command line : https://docs.streamlit.io/get-started/installation/command-lin, Installasi langsung ke komputer/laptop dengan menjalankan virtual enviroment Python. (membutuhkan Code Editor)
-![alt text](image-2.png)
+![alt text](/Praktikum%20Pertemuan%2012/images/image-2.png)
 
 3. Install Streamlit using Anaconda Distribution : https://docs.streamlit.io/get-started/installation/anaconda-distribution: ![alt text](image-1.png) Sama hal nya dengan cara sebelumnya hanya saja menggunakan anaconda sebagai paket python, sehingga tidak perlu install python lagi karena sudah satu paket (membutuhkan Code Editor)
 
-4. GitHub Codespaces : https://docs.streamlit.io/get-started/installation/community-cloud : ![alt text](image-3.png)
+4. GitHub Codespaces : https://docs.streamlit.io/get-started/installation/community-cloud : ![alt text](/Praktikum%20Pertemuan%2012/images/image-3.png)
 Dengan memanfaatkan server codespace github dan langung terkoneksi dengan platfrom streamlit : https://share.streamlit.io/, Sehingga langung bisa di akses secara online, tidak ada yang perlu di install, semua berjalan secara online mulai dari Code Editor dan Python (Cara ini yang akan di gunakan pada praktikum)
 
 5. Snowflake  : https://docs.streamlit.io/get-started/installation/streamlit-in-snowflake
-![alt text](image-4.png) Cara ini hampir mirip dengan Github Codespace, akan tetapi fitur gratis hanya bisa di gunakan selama 30 hari saja.
+![alt text](/Praktikum%20Pertemuan%2012/images/image-4.png) Cara ini hampir mirip dengan Github Codespace, akan tetapi fitur gratis hanya bisa di gunakan selama 30 hari saja.
 
 
 ## Menjalankan Streamlit di Github Codespace 
 1. Buat akun share streamlit pada link berikut ini : https://share.streamlit.io/ Bisa langsung mengguakan akun github atau email (jika menggunakan github tidak perlu menghubungkan streamlit dengan github)
-2. Jika sudah terbuat akun nya. Pastikan akun github sudah terhubung dengan streamlit ![alt text](image-5.png) Seperti gambar di atas, Jika belum lakukan koneksi antara keduanya.
-3. Membuat Project ![alt text](image-6.png), Klik create app pada pojok kanan
-4. Deploy a public app from a template ![alt text](image-7.png)
-5. Pilih Template : ![alt text](image-8.png) ada beberapa pilihan template yang di sediakan, untuk kali ini Pilih  basik (**Blank App**), lalu sesuaikan **nama dan url** dengan nim dan nama
+2. Jika sudah terbuat akun nya. Pastikan akun github sudah terhubung dengan streamlit ![alt text]/Praktikum%20Pertemuan%2012/images/(image-5.png) Seperti gambar di atas, Jika belum lakukan koneksi antara keduanya.
+3. Membuat Project ![alt text](/Praktikum%20Pertemuan%2012/images/image-6.png), Klik create app pada pojok kanan
+4. Deploy a public app from a template ![alt text](/Praktikum%20Pertemuan%2012/images/image-7.png)
+5. Pilih Template : ![alt text](/Praktikum%20Pertemuan%2012/images/image-8.png) ada beberapa pilihan template yang di sediakan, untuk kali ini Pilih  basik (**Blank App**), lalu sesuaikan **nama dan url** dengan nim dan nama
 6. Centang Pilihan Open Github Codespace
-![alt text](image-9.png) lalu klik **Deploy** 
+![alt text](/Praktikum%20Pertemuan%2012/images/image-9.png) lalu klik **Deploy** 
 
 Akan tampil tab baru seperti gambar berikut  ini : 
-![alt text](image-10.png)
+![alt text](/Praktikum%20Pertemuan%2012/images/image-10.png)
 Tampilan code editor Visual Studio Code online yang siap pakai.
 di sebelah kiri struktur file, lalu ada code editor tempat untuk menuliskan code, dan di sebelah kanan sudah di jalankan liver server untuk langsung melihat hasil streamlit yang sedang di buat/edit.
 
@@ -100,7 +100,7 @@ st.write(
 ```
 
 Jika liver server di sebelah kanan tidak otomatis berubah klik **Always Rerun** 
-![alt text](image-11.png) Jika sudah berhasil selamat! Anda berhasil membuat web app pertama menggunakan streamlit.
+![alt text](/Praktikum%20Pertemuan%2012/images/image-11.png) Jika sudah berhasil selamat! Anda berhasil membuat web app pertama menggunakan streamlit.
 
 
 

@@ -12,4 +12,5 @@
          1. tabel atau data frame
          2. dan chart
       
-  - 
+
+Referensi : https://www.datacamp.com/tutorial/streamlit 
