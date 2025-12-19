@@ -58,7 +58,7 @@ Tanpa harus menginstall di komputer sudah bisa menjalankan streamlit, Cara ini h
 2. Install Streamlit using command line : https://docs.streamlit.io/get-started/installation/command-lin, Installasi langsung ke komputer/laptop dengan menjalankan virtual enviroment Python. (membutuhkan Code Editor)
 ![alt text](/Praktikum%20Pertemuan%2012/images/image-2.png)
 
-3. Install Streamlit using Anaconda Distribution : https://docs.streamlit.io/get-started/installation/anaconda-distribution: ![alt text](image-1.png) Sama hal nya dengan cara sebelumnya hanya saja menggunakan anaconda sebagai paket python, sehingga tidak perlu install python lagi karena sudah satu paket (membutuhkan Code Editor)
+3. Install Streamlit using Anaconda Distribution : https://docs.streamlit.io/get-started/installation/anaconda-distribution: ![alt text](/Praktikum%20Pertemuan%2012/images/image-1.png) Sama hal nya dengan cara sebelumnya hanya saja menggunakan anaconda sebagai paket python, sehingga tidak perlu install python lagi karena sudah satu paket (membutuhkan Code Editor) **Akan Menggunakan Cara ini**
 
 4. GitHub Codespaces : https://docs.streamlit.io/get-started/installation/community-cloud : ![alt text](/Praktikum%20Pertemuan%2012/images/image-3.png)
 Dengan memanfaatkan server codespace github dan langung terkoneksi dengan platfrom streamlit : https://share.streamlit.io/, Sehingga langung bisa di akses secara online, tidak ada yang perlu di install, semua berjalan secara online mulai dari Code Editor dan Python (Cara ini yang akan di gunakan pada praktikum)
@@ -66,7 +66,7 @@ Dengan memanfaatkan server codespace github dan langung terkoneksi dengan platfr
 5. Snowflake  : https://docs.streamlit.io/get-started/installation/streamlit-in-snowflake
 ![alt text](/Praktikum%20Pertemuan%2012/images/image-4.png) Cara ini hampir mirip dengan Github Codespace, akan tetapi fitur gratis hanya bisa di gunakan selama 30 hari saja.
 
-
+# Skipp Langkah ini
 ## Menjalankan Streamlit di Github Codespace 
 1. Buat akun share streamlit pada link berikut ini : https://share.streamlit.io/ Bisa langsung mengguakan akun github atau email (jika menggunakan github tidak perlu menghubungkan streamlit dengan github)
 2. Jika sudah terbuat akun nya. Pastikan akun github sudah terhubung dengan streamlit ![alt text]/Praktikum%20Pertemuan%2012/images/(image-5.png) Seperti gambar di atas, Jika belum lakukan koneksi antara keduanya.
@@ -101,6 +101,15 @@ st.write(
 
 Jika liver server di sebelah kanan tidak otomatis berubah klik **Always Rerun** 
 ![alt text](/Praktikum%20Pertemuan%2012/images/image-11.png) Jika sudah berhasil selamat! Anda berhasil membuat web app pertama menggunakan streamlit.
+
+
+
+# langsung ke sini
+
+## Pastikan di Komputer sudah terinstall 
+- Visual Studio Code
+- Miniconda (Jika belum, download di link beirkut https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe) Lalu Install
+- 
 
 
 
