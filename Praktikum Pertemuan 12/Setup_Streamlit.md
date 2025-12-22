@@ -109,10 +109,49 @@ Jika liver server di sebelah kanan tidak otomatis berubah klik **Always Rerun**
 ## Pastikan di Komputer sudah terinstall 
 - Visual Studio Code
 - Miniconda (Jika belum, download di link beirkut https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe) Lalu Install
+
 - Selanjutnya :
-    - klik start menu (logo windows) lalu ketik **anaconda prompt** seperti berikut ini ![alt text](image.png) 
+    - klik start menu (logo windows) lalu ketik **anaconda prompt** seperti berikut ini 
+    ![alt text](image.png) 
     - **Klik**  lalu akan tampil jendela terminal seperti berikut ini :
+    
     ![alt text](image-1.png)
+    - Setelah itu buat folder dengan cara mengetik command berikut ini **mkdir spasi nama folder** ``mkdir streamlit_veven``
+    - masuk ke dalam folder yang sudah di buat sebelumnya dengan cara mengetikan **cd nama folder yg di buat** ``cd streamlit_veven``
+    - pastikan line pada terminal menunjukan nama folder anda ``(base) C:\Users\vvn\streamlit_veven>``
+    - berikut ini tampilanya
+    
+     ![alt text](<Screenshot 2025-12-22 135504.png>)
+
+    - pastikan apakah library **streamlit** sudah terinstall atau belum dengan cara mengetikan perintah ``pip list``
+
+    ![alt text](image-2.png)
+
+    scroll dan cari streamlit pada list tersebut, jika belum ada
+    - Install library streamlit dengan mengetikan printah berikut ini ``pip install streamlit`` tampilanya seperti gambar berikut ini, tunggu hingga selesai.
+    ![alt text](image-3.png)
+    - untuk memverifikasi apakah streamlit sudah bisa di jalankan maka jalankan perintah berikut ini ``streamlit hello``, tekan enter jika di minta memasukan email.
+
+    ![alt text](image-5.png)
+
+    - Akan terbuka tab baru pada web browser dengan tampilan seperti berikut ini 
+
+     ![alt text](image-4.png)
+    jika seprti berikut ini maka streamlit sudah siap untuk jalankan di komputer lokal
+    - jika kembali ke terminal maka akan tampil ip untuk mengakses streamlit seperti gambar berikut
+
+    ![alt text](image-6.png)
+
+    - Hentika proses streamlit yg berjalan dengan menetak tomnol ``ctrl + c``
+    ![alt text](image-7.png)
+    sehingga tampilan terminal akan seperti gambar di atas
+
+
+
+   
+    
+
+
 
 
 
