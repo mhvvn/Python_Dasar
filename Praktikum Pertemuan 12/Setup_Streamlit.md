@@ -61,7 +61,7 @@ Tanpa harus menginstall di komputer sudah bisa menjalankan streamlit, Cara ini h
 3. Install Streamlit using Anaconda Distribution : https://docs.streamlit.io/get-started/installation/anaconda-distribution: ![alt text](/Praktikum%20Pertemuan%2012/images/image-1.png) Sama hal nya dengan cara sebelumnya hanya saja menggunakan anaconda sebagai paket python, sehingga tidak perlu install python lagi karena sudah satu paket (membutuhkan Code Editor) **Akan Menggunakan Cara ini**
 
 4. GitHub Codespaces : https://docs.streamlit.io/get-started/installation/community-cloud : ![alt text](/Praktikum%20Pertemuan%2012/images/image-3.png)
-Dengan memanfaatkan server codespace github dan langung terkoneksi dengan platfrom streamlit : https://share.streamlit.io/, Sehingga langung bisa di akses secara online, tidak ada yang perlu di install, semua berjalan secara online mulai dari Code Editor dan Python (Cara ini yang akan di gunakan pada praktikum)
+Dengan memanfaatkan server codespace github dan langung terkoneksi dengan platfrom streamlit : https://share.streamlit.io/, Sehingga langung bisa di akses secara online, tidak ada yang perlu di install, semua berjalan secara online mulai dari Code Editor dan Python 
 
 5. Snowflake  : https://docs.streamlit.io/get-started/installation/streamlit-in-snowflake
 ![alt text](/Praktikum%20Pertemuan%2012/images/image-4.png) Cara ini hampir mirip dengan Github Codespace, akan tetapi fitur gratis hanya bisa di gunakan selama 30 hari saja.
@@ -109,7 +109,10 @@ Jika liver server di sebelah kanan tidak otomatis berubah klik **Always Rerun**
 ## Pastikan di Komputer sudah terinstall 
 - Visual Studio Code
 - Miniconda (Jika belum, download di link beirkut https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe) Lalu Install
-- 
+- Selanjutnya :
+    - klik start menu (logo windows) lalu ketik **anaconda prompt** seperti berikut ini ![alt text](image.png) 
+    - **Klik**  lalu akan tampil jendela terminal seperti berikut ini :
+    ![alt text](image-1.png)
 
 
 
