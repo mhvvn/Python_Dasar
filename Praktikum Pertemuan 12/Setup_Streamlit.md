@@ -554,3 +554,40 @@ Nah, itulah beberapa pilihan widget yang disediakan oleh streamlit. Anda dapat m
 
 
 
+
+## Upload Streamlit project
+
+### Sebelumnya silahkan uplaod file streamlit ke github masing-masing.
+- Buat repository baru
+- lalu jalankan ketiga printah berikut pada termianl VSCode anda 
+```bash
+git init
+git remote add origin https://github.com/mhvvn/new-streamlit.git
+git branch -M main
+git push -u origin main
+```
+- sehingga pada repository anda terupload file streamlit nya
+  ![alt text](image-12.png)
+
+## setup akun streamlit share
+
+- Daftar akun streamlit sahre : https://share.streamlit.io/
+  ![alt text](image-8.png)
+- Silahkan daftar menggunakan gmail atau github )
+  ![alt text](image-9.png)
+- (di rekomendasikan github karena nanti file yg akan di upload via github)
+- Jika sudah masuk, Klik icon foto lalu masuk ke setting, untuk mensinkronkan akun github dengan streamlit
+  ![alt text](image-10.png)
+- isilah Source control dengan github anda
+  ![alt text](image-11.png)
+- klik create app pada pojok kanan
+- lalu pilih source from github
+  ![alt text](image-13.png)
+- Lalu cari nama reposiotry github yg baru saja di buat sebelumnya
+  ![alt text](image-14.png)
+- biarkan semua terisi secara default
+- untuk App URL bisa di atur sesuai dengan kemauan
+- Terakhir klik deploy untuk menjalankan project streamlit
+  ![alt text](image-15.png)
+- maka akan terbuka tab baru yang menampilkan halaman project streamlit anda dengan url sesuai yg di isi sebelumnya
+![alt text](image-16.png)
