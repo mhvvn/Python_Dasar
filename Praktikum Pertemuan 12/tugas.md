@@ -13,4 +13,10 @@
          2. dan chart
       
 
-Referensi : https://www.datacamp.com/tutorial/streamlit 
+Referensi : 
+- https://www.datacamp.com/tutorial/streamlit 
+- https://builtin.com/machine-learning/streamlit-tutorial
+- https://youtu.be/msOKlWyryqs?si=wR3be_2wMOc8WukT
+- https://youtu.be/qEuuSLCtqtM?si=pDoUlNCY6X2iJAkv
+- https://docs.streamlit.io/develop/api-reference/layout
+- https://dev.to/jamesbmour/streamlit-part-6-mastering-layouts-4hci
