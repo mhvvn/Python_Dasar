@@ -143,7 +143,9 @@ Jika liver server di sebelah kanan tidak otomatis berubah klik **Always Rerun**
     ![alt text](/Praktikum%20Pertemuan%2012/src/image-6.png)
 
     - Hentika proses streamlit yg berjalan dengan menetak tomnol ``ctrl + c``
+  - 
     ![alt text](/Praktikum%20Pertemuan%2012/src/image-7.png)
+    
     sehingga tampilan terminal akan seperti gambar di atas
 
 
