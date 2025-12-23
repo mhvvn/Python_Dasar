@@ -178,12 +178,14 @@ st.write(
   ![alt text](/Praktikum%20Pertemuan%2012/image-2.png)
 
 - Untuk menjalankan streamlit gunakan printah berikut ini pada terminal `` streamlit run nama file`` seperti gambar
-- ![alt text](/Praktikum%20Pertemuan%2012/img/image-3.png)
+  ![alt text](/Praktikum%20Pertemuan%2012/image-3.png)
 
-selanjtunya akan terbuka tab baru seperti sebelumnya
+- selanjtunya akan terbuka tab baru seperti sebelumnya
 
 Jika liver server di sebelah kanan tidak otomatis berubah klik **Always Rerun** 
-![alt text](/Praktikum%20Pertemuan%2012/images/image-11.png) Jika sudah berhasil selamat! Anda berhasil membuat web app pertama menggunakan streamlit.
+![alt text](/Praktikum%20Pertemuan%2012/images/image-11.png)
+
+Jika sudah berhasil selamat! Anda berhasil membuat web app pertama menggunakan streamlit.
 
 
    
