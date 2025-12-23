@@ -112,38 +112,38 @@ Jika liver server di sebelah kanan tidak otomatis berubah klik **Always Rerun**
 
 - Selanjutnya :
     - klik start menu (logo windows) lalu ketik **anaconda prompt** seperti berikut ini 
-    ![alt text](image.png) 
+    ![alt text](/Praktikum%20Pertemuan%2012/src/image.png) 
     - **Klik**  lalu akan tampil jendela terminal seperti berikut ini :
     
-    ![alt text](image-1.png)
+    ![alt text](/Praktikum%20Pertemuan%2012/src/image-1.png)
     - Setelah itu buat folder dengan cara mengetik command berikut ini **mkdir spasi nama folder** ``mkdir streamlit_veven``
     - masuk ke dalam folder yang sudah di buat sebelumnya dengan cara mengetikan **cd nama folder yg di buat** ``cd streamlit_veven``
     - pastikan line pada terminal menunjukan nama folder anda ``(base) C:\Users\vvn\streamlit_veven>``
     - berikut ini tampilanya
     
-     ![alt text](<Screenshot 2025-12-22 135504.png>)
+    ![](/Praktikum%20Pertemuan%2012/src/Screenshot%202025-12-22%20135504.png)
 
     - pastikan apakah library **streamlit** sudah terinstall atau belum dengan cara mengetikan perintah ``pip list``
 
-    ![alt text](image-2.png)
+    ![alt text](/Praktikum%20Pertemuan%2012/src/image-2.png)
 
     scroll dan cari streamlit pada list tersebut, jika belum ada
     - Install library streamlit dengan mengetikan printah berikut ini ``pip install streamlit`` tampilanya seperti gambar berikut ini, tunggu hingga selesai.
-    ![alt text](image-3.png)
+    ![alt text](/Praktikum%20Pertemuan%2012/src/image-3.png)
     - untuk memverifikasi apakah streamlit sudah bisa di jalankan maka jalankan perintah berikut ini ``streamlit hello``, tekan enter jika di minta memasukan email.
 
-    ![alt text](image-5.png)
+    ![alt text](/Praktikum%20Pertemuan%2012/src/image-5.png)
 
     - Akan terbuka tab baru pada web browser dengan tampilan seperti berikut ini 
 
-     ![alt text](image-4.png)
+     ![alt text](/Praktikum%20Pertemuan%2012/src/image-4.png)
     jika seprti berikut ini maka streamlit sudah siap untuk jalankan di komputer lokal
     - jika kembali ke terminal maka akan tampil ip untuk mengakses streamlit seperti gambar berikut
 
-    ![alt text](image-6.png)
+    ![alt text](/Praktikum%20Pertemuan%2012/src/image-6.png)
 
     - Hentika proses streamlit yg berjalan dengan menetak tomnol ``ctrl + c``
-    ![alt text](image-7.png)
+    ![alt text](/Praktikum%20Pertemuan%2012/src/image-7.png)
     sehingga tampilan terminal akan seperti gambar di atas
 
 
@@ -567,27 +567,27 @@ git branch -M main
 git push -u origin main
 ```
 - sehingga pada repository anda terupload file streamlit nya
-  ![alt text](image-12.png)
+  ![alt text](/Praktikum%20Pertemuan%2012/src/image-12.png)
 
 ## setup akun streamlit share
 
 - Daftar akun streamlit sahre : https://share.streamlit.io/
-  ![alt text](image-8.png)
-- Silahkan daftar menggunakan gmail atau github )
-  ![alt text](image-9.png)
+  ![alt text](/Praktikum%20Pertemuan%2012/src/image-8.png)
+- Silahkan daftar menggunakan gmail atau github 
+  ![alt text](/Praktikum%20Pertemuan%2012/src/image-9.png)
 - (di rekomendasikan github karena nanti file yg akan di upload via github)
 - Jika sudah masuk, Klik icon foto lalu masuk ke setting, untuk mensinkronkan akun github dengan streamlit
-  ![alt text](image-10.png)
+  ![alt text](/Praktikum%20Pertemuan%2012/src/image-10.png)
 - isilah Source control dengan github anda
-  ![alt text](image-11.png)
+  ![alt text](/Praktikum%20Pertemuan%2012/src/image-11.png)
 - klik create app pada pojok kanan
 - lalu pilih source from github
-  ![alt text](image-13.png)
+  ![alt text](/Praktikum%20Pertemuan%2012/src/image-13.png)
 - Lalu cari nama reposiotry github yg baru saja di buat sebelumnya
-  ![alt text](image-14.png)
+  ![alt text](/Praktikum%20Pertemuan%2012/src/image-14.png)
 - biarkan semua terisi secara default
 - untuk App URL bisa di atur sesuai dengan kemauan
 - Terakhir klik deploy untuk menjalankan project streamlit
-  ![alt text](image-15.png)
+  ![alt text](/Praktikum%20Pertemuan%2012/src/image-15.png)
 - maka akan terbuka tab baru yang menampilkan halaman project streamlit anda dengan url sesuai yg di isi sebelumnya
-![alt text](image-16.png)
+![alt text](/Praktikum%20Pertemuan%2012/src/image-16.png)
