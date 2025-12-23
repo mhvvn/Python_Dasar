@@ -154,7 +154,7 @@ Jika liver server di sebelah kanan tidak otomatis berubah klik **Always Rerun**
   
 ### Membuat "Hello, world!" App dengan Streamlit
 - Klik file icon new file pada pojok kiri atas seperti gambar
-  ![alt text](/Praktikum%20Pertemuan%2012/img/image.png)
+  ![alt text](/Praktikum%20Pertemuan%2012/image.png)
 
 - isikan nama file seperti berikut ini ``streamlit_app.py`` 
 - pada sisi kanan copy code berikut ini
@@ -175,7 +175,7 @@ st.write(
   ![alt text](/Praktikum%20Pertemuan%2012/image-1.png)
 - maka termianl akan terbuka di bagian bawah
 - Selanjutnya ganti termianl dari powersheel dengan command promt seperti gambar
-  ![alt text](/Praktikum%20Pertemuan%2012/src/image-2.png)
+  ![alt text](/Praktikum%20Pertemuan%2012/image-2.png)
 
 - Untuk menjalankan streamlit gunakan printah berikut ini pada terminal `` streamlit run nama file`` seperti gambar
 - ![alt text](/Praktikum%20Pertemuan%2012/img/image-3.png)
