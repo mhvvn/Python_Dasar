@@ -142,4 +142,7 @@ st.plotly_chart(line_age)
 Jalankan dan lihat perubahanya
 
 
+
 # Modifikasi dan tambahkan chart lainya dengan mengacu pada tabel pada file customers.csv
+
+![](/Praktikum%20Pertemuan%2013/img/image.png)
