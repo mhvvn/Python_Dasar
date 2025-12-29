@@ -424,3 +424,12 @@ Semoga seluruh materi pada kelas ini dapat menjadi bekal bagi Anda untuk memulai
 
 - sehingga hasilnya seperti dashboard pada link berikut ini 
   https://dashboardalldata.streamlit.app/
+- sebelum di upload ke streamlit tambahkan file ``requirements.txt`` dengan ini seperti berikut ini
+
+```python
+streamlit
+pandas
+plotly
+babel
+seaborn
+```
