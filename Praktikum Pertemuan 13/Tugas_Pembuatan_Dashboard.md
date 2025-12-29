@@ -421,4 +421,6 @@ Semoga seluruh materi pada kelas ini dapat menjadi bekal bagi Anda untuk memulai
 
 ## Tugas
 - Silahkan Modifikasi codingan tersebut, agar dapat berjalan di platform **share.streamlit.io** dengan mengganti library **matplotlib** dengan **plotly** sebagai alternatif https://plotly.com/python/ 
-- 
+
+- sehingga hasilnya seperti dashboard pada link berikut ini 
+  https://dashboardalldata.streamlit.app/
