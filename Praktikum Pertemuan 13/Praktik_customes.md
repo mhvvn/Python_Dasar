@@ -141,6 +141,10 @@ line_age = px.line(
 st.plotly_chart(line_age)
 ```
 
+st.subheader("Tambahakn Chart Lainnya Versi Anda Sendiri!")
+st.write("Untuk menambahkan chart lihat dan pahami struktur tabel data set file customers.csv")
+
+
 Jalankan dan lihat perubahanya
 
 
