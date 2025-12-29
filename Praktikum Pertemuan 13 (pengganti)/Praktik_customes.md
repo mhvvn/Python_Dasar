@@ -20,10 +20,14 @@ import plotly.express as px
 ```python
 st.title("Customer Analytics Dashboard")
 ```
+Jalankan dan lihat perubahanya
+``streamlit run namafile``
+
 ```python
 df = pd.read_csv("customers.csv")
 
 ```
+Jalankan dan lihat perubahanya
 
 ```python
 st.sidebar.header("Filter Data")
@@ -32,13 +36,15 @@ departments = st.sidebar.multiselect(
     df["Department"].dropna().unique()
 )
 ```
-
+Jalankan dan lihat perubahanya
 ```python
 genders = st.sidebar.multiselect(
     "Pilih Gender",
     df["Gender"].dropna().unique()
 )
 ```
+
+Jalankan dan lihat perubahanya
 ```python
 st.sidebar.header("Filter Rentang Umur")
 min_usia, max_usia = int(df["Age"].min()), int(df["Age"].max())
@@ -49,6 +55,8 @@ usia_range = st.sidebar.slider(
     value=(min_usia, max_usia)
 )
 ```
+
+Jalankan dan lihat perubahanya
 ```python
 df_filtered = df[
     (df["Department"].isin(departments)) &
@@ -56,13 +64,15 @@ df_filtered = df[
     (df["Age"].between(usia_range[0], usia_range[1]))
 ]
 ```
+
+Jalankan dan lihat perubahanya
 ```python
 st.subheader("Data Tabel")
 ```
 ```python
 st.dataframe(df_filtered)
 ```
-
+Jalankan dan lihat perubahanya
 ```python
 st.subheader("Visualisasi Statistik")
 ```
@@ -80,6 +90,8 @@ with col1:
     )
     st.plotly_chart(pie_gender)
 ```
+
+Jalankan dan lihat perubahanya
 ```python
 with col2:
     st.subheader("Gaji Rata-rata per Department")
@@ -100,10 +112,14 @@ with col2:
     )
     st.plotly_chart(bar_salary)
 ```
+
+Jalankan dan lihat perubahanya
 ```python
 
 st.subheader("Rata-rata Gaji Berdasarkan Usia")
 ```
+
+Jalankan dan lihat perubahanya
 ```python
 salary_age = (
     df_filtered
@@ -123,7 +139,7 @@ line_age = px.line(
 st.plotly_chart(line_age)
 ```
 
-## Jalankan dan lihat perubahanya
+Jalankan dan lihat perubahanya
 
 
 # Modifikasi dan tambahkan chart lainya dengan mengacu pada tabel pada file customers.csv
