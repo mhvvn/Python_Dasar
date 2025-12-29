@@ -1,14 +1,16 @@
 # Praktikum Pembuatan Dashboard Customers
 
-1. Download file dataset ``customers.csv`` pada link berikut ini. https://drive.google.com/file/d/1on5TCiYvn-bR5eEv-oOmZUrcdNSk1vlN/view 
+1. Download file dataset ``customers.csv`` pada link berikut ini.
+    https://drive.google.com/file/d/1on5TCiYvn-bR5eEv-oOmZUrcdNSk1vlN/view 
 2. Buatlah folder baru untuk praktikum kali ini, dengan nama Dashboard_Customers
 3. Copy / pindahkan file csv yg di download ke dalam file tersebut
 4. Bukalah code editor VSCode untuk melakukan praktikum 
 
 Langkah-langkah hampir sama dengan pertemyan sebelumnya
 
-copy potongan kode berikut ini kedalam file project anda
+copy potongan kode berikut ini kedalam file project anda lalu running dan lihat perubahan pada web browser
 
+perintah untuk menjalankan pada terminal ``streamlit run namafile.py``
 
 
 ```python
