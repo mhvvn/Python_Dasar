@@ -5,6 +5,7 @@
 2. Buatlah folder baru untuk praktikum kali ini, dengan nama Dashboard_Customers
 3. Copy / pindahkan file csv yg di download ke dalam file tersebut
 4. Bukalah code editor VSCode untuk melakukan praktikum 
+5. Buat file python  dengan nama ``streamlit_app.py``
 
 Langkah-langkah hampir sama dengan pertemyan sebelumnya
 
