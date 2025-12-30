@@ -141,13 +141,23 @@ line_age = px.line(
 
 st.plotly_chart(line_age)
 ```
+```python
 
 st.subheader("Tambahakn Chart Lainnya Versi Anda Sendiri!")
 st.write("Untuk menambahkan chart lihat dan pahami struktur tabel data set file customers.csv")
-
+```
 
 Jalankan dan lihat perubahanya
 
+
+Sebelum di upload ke share.streamlit.io silahkan tambahkan file berikut ini ```requirements.txt```
+
+```python
+streamlit
+pandas
+plotly
+
+```
 
 
 # Modifikasi dan tambahkan chart lainya dengan mengacu pada tabel pada file customers.csv
